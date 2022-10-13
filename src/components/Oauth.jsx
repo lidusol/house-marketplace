@@ -5,7 +5,6 @@ import { doc, setDoc, getDoc, serverTimestamp } from "firebase/firestore";
 import { db } from "../firebase.config";
 import { toast } from "react-toastify";
 import googleIcon from "../assets/svg/googleIcon.svg";
-import { async } from "@firebase/util";
 
 function Oauth() {
   const navigate = useNavigate();
