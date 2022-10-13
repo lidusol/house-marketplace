@@ -12,7 +12,6 @@ function ForgotPassword() {
   };
 
   const onSubmit = async (e) => {
-    console.log("here");
     e.preventDefault();
     try {
       const auth = getAuth();
