@@ -14,6 +14,7 @@ import { toast } from "react-toastify";
 import { v4 as uuidv4 } from "uuid";
 
 function CreateListing() {
+  // eslint-disable-next-line
   const [geolocationEnabled, setGeolocationEnabled] = useState(false);
   const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({
