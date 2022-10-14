@@ -28,7 +28,6 @@ function Slider() {
           data: doc.data(),
         });
       });
-      console.log(listings);
 
       setListing(listings);
       setLoading(false);

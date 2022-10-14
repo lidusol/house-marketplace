@@ -74,7 +74,6 @@ function Category() {
 
       const lastVisible = querySnap.docs[querySnap.docs.length - 1];
       setLastFetchedListing(lastVisible);
-      console.log(lastFetchedListing);
 
       const listings = [];
 
